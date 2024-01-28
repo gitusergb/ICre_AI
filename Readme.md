@@ -23,18 +23,18 @@ Created a server then tried ,with the help of two routes generated image and pos
 
 ## More Info :
 
-### Link : 
+### Netlify Link : https://lighthearted-dieffenbachia-6a1619.netlify.app/
 
 ### Output :
 
 
-![Capture 0](#)
+![Capture 0](https://i.ibb.co/5YH5vMP/scr1.png)
 
+![Capture1](https://i.ibb.co/6tY8Jhy/scr2.png)
 
-![Capture1](#)
+![Capture2](https://i.ibb.co/FXJyxxR/scr3.png)
 
-
-![Capture2](#)
+![Capture3](https://i.ibb.co/tz4wbrR/scr4.png)
 
 
 
