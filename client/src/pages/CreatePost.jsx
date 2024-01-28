@@ -35,6 +35,7 @@ export const CreatePost = () => {
         const data = await response.json();
         console.log(data)
         // setForm({ ...form, photo:`data:image/jpeg;base64,${data.photo}`||`${data.photo}`});
+           
         setForm({ ...form, photo:`${data.photo}`});
       } catch (err) {
         alert(err);

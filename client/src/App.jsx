@@ -14,7 +14,7 @@ const App = () => {
         </div>
       </Link>
       <Link to="/create-post" className="font-inter font-medium bg-[#424242] text-white px-4 py-2 rounded-md">Create</Link>
-      
+      {/*Suhaanaa safar aur ye mausam hasi,Gauri Hame dar hai ham kho na jaae kahi */}
     </header>
     <main className="sm:p-8 px-4 py-8 w-full bg-opacity-25 bg-gradient-to-r from-cyan-500 to-blue-500 min-h-[calc(100vh-73px)] bg-no-repeat bg-cover bg-center bg-fixed">
       <Routes>

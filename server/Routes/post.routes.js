@@ -1,6 +1,7 @@
 const express = require('express');
 const dotenv = require('dotenv');
 // import { v2 as cloudinary } from 'cloudinary';
+// Suhaanaa safar aur ye mausam hasi,Gauri Hame dar hai ham kho na jaae kahi
 const cloudinary = require('cloudinary').v2;
 const { PostModel} =require('../mongodb/Model/PostModel');
 

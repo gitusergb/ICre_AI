@@ -23,6 +23,7 @@ export const Home = () => {
   const [allPosts, setAllPosts] = useState(null);
 
   const [searchText, setSearchText] = useState('');
+   {/*Suhaanaa safar aur ye mausam hasi,Gauri Hame dar hai ham kho na jaae kahi */}
   // const [searchText, setSearchText] = useState('AI');
   const [searchTimeout, setSearchTimeout] = useState(null);
   // eslint-disable-next-line no-unused-vars

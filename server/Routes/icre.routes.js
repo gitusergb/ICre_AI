@@ -5,7 +5,7 @@ dotenv.config();
 const icreRouter= express.Router();
 const { Configuration, OpenAIApi } = require("openai");
 const OpenAI = require('openai');
-const { OPENAI_API_KEY } = process.env;
+const { OPENAI_API_KEY ,TARGET_URL} = process.env;
 
 
 // const configu =new Configuration({
@@ -17,14 +17,16 @@ const openai = new OpenAI(OPENAI_API_KEY);
 
 // A hypothetical search function
 async function performSearch(prompt) {
-  const targetUrl = 'https://bb-nwfw.onrender.com/AIimages';
+
   //console.log(prompt)
   try {
     // Fetch data from the target URL
-    const response = await axios.get(targetUrl);
+    const response = await axios.get(TARGET_URL);
     const data = response.data;
     // console.log(data)
-    // Check if there is an element in the data with a matching prompt
+    // if there is an element in the data with a matching prompt
+    //  Mera falsafaa kandhe pe mera basta
+    // Chala main jahaan le chala mujhe rasta gauri
     const matchingElement = data.find(element => element.prompt === prompt);
     console.log(matchingElement)
     if (matchingElement) {
@@ -68,6 +70,7 @@ icreRouter.route('/').post(async (req, res) => {
 
     const image = aiResponse.data.data[0].b64_json;
     // res.status(200).json({ photo:image});
+    // Shaamein malang si,Raatein surang si
    // console.log(image.status)
     if (image) {
       res.status(200).json({ photo: image });
