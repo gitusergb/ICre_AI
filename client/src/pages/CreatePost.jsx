@@ -23,7 +23,7 @@ export const CreatePost = () => {
       console.log(form.prompt)
       try {
         setGeneratingImg(true);
-        const response = await fetch('http://localhost:9000/api/v1/icre', {
+        const response = await fetch('https://icre-g.onrender.com/api/v1/icre', {
           method: 'POST',
           headers: {
             'Content-Type':'application/json',
@@ -61,7 +61,7 @@ export const CreatePost = () => {
       // console.log("Submited:",form.prompt, form.photo)
       //setLoading(true);
       try {
-        const response = await fetch('http://localhost:9000/api/v1/post', {
+        const response = await fetch('https://icre-g.onrender.com/api/v1/post', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
