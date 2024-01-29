@@ -25,8 +25,24 @@ Created a server then tried ,with the help of two routes generated image and pos
 
 ### Netlify Link : https://lighthearted-dieffenbachia-6a1619.netlify.app/
 
-### Output :
 
+## create images for Example : 
+
+- Spongebob Squarepants in the Blair Witch Project
+
+- 3D render of a cute tropical fish in an aquarium on a dark blue background, digital art
+
+- A Space Shuttle flying above Cape Town, digital art
+
+- a sea otter with a pearl earring by Johannes Vermeer
+
+- A BBQ that is alive, in the style of a Pixar animated movie
+
+- panda learning computer
+
+
+
+### Output :
 
 ![Capture 0](https://i.ibb.co/5YH5vMP/scr1.png)
 
@@ -37,8 +53,10 @@ Created a server then tried ,with the help of two routes generated image and pos
 ![Capture3](https://i.ibb.co/tz4wbrR/scr4.png)
 
 
+---
 
-## Contributor: 
+
+## Contributor: https://github.com/gitusergb
 
 
 
